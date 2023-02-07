@@ -20,6 +20,7 @@ public class SeleniumTest {
 
         if (expectedTitle.contains(actualTitle)) {
             System.out.println("Verification is done : PASS");
+
         } else {
             System.out.println("Verification is FAILED");
             System.out.println("actual title is =" + actualTitle);
